@@ -1,0 +1,50 @@
+.header h1,
+.header .breadcrumb {
+    text-align:center;
+}
+
+.book {
+    border-bottom:1px solid rgb(blue);
+}
+
+.book .addbtn,
+.searchBar input[type=submit] {
+    padding: 8px 10px;
+    border-radius: 5px;
+    min-width: 80px;
+    float: right;
+    font-size: 1.1em;
+    background-color:white;
+    padding: 12px;
+    color: pink;
+    padding:12px 20px;
+    border:none;
+    cursor:pointer;
+}
+.addbtn,
+.searchBar input[type=text] {
+    border-radius:4px;
+    box-sizing: border-box;
+    border-color: white;
+    margin: 6px 0px 16px 0px;
+    padding: 12px;
+    resize: vertical;
+    width:100%;
+}
+
+
+.addbtn {
+    background-color: white;
+}
+a {
+    text-align:center
+}
+body {
+    background-color: pink;
+}
+.section {
+    text-align:center;
+}
+h1 {
+    text-align:center
+}
