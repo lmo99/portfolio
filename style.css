@@ -8,17 +8,28 @@ h2 {
 }
 h4 {
     color:wheat;
+    font-weight: bold;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-nav {
+
+h6 {
+    color: purple;
+    font-weight: bold;
+    font-family: Verdana;
+
+}
+
+.nav {
     font-family: Gill Sans;
     text-align: center;
     color:purple;
 }
 p {
-    color: wheat
+    color: wheat;
+    font-weight: bold;
+    text-align: center;
 }
 #introduction {
     font-weight: 600;
@@ -78,6 +89,37 @@ form {
     color:purple;
 
 }
-section p {
-    text-decoration: underline overline;
+
+
+.nav:after {
+content:"";
+clear:both;
+display:block;
 }
+
+.nav li {
+ float: left;
+ list-style-type: none;
+ }
+
+ nav {
+     color:purple;
+ }
+
+ h6 {
+     color: purple;
+     font-family:"Calibri";
+     text-align:center
+ }
+ h4 {
+    color: purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center
+ }
+
+ .example {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
